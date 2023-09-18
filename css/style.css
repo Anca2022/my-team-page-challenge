@@ -76,4 +76,48 @@ footer {
 footer a {
   color: #A9A9A9;
   font-weight: 700;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 950px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text {
+    display: flex;
+  }
+  .text .title {
+    flex-basis: 50%;
+    padding-top: 2.8rem;
+  }
+  .text .description {
+    flex-basis: 46%;
+    padding-top: 2.8rem;
+  }
+  .text .description p {
+    font-size: 18px;
+  }
+  .members {
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+  }
+  .members .member {
+    min-height: 500px;
+  }
+  .members .member img {
+    width: 238px;
+  }
+  .members .member .name {
+    font-size: 18px;
+  }
+  .members .member .job-title {
+    font-size: 12px;
+  }
+  .members .member.up {
+    justify-content: flex-start;
+  }
+  .members .member.down {
+    justify-content: flex-end;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -27,8 +27,7 @@
     p{
         font-size: 14px;
         padding-right: 20px;
-        padding-top: 10px;
-       
+        padding-top: 10px; 
     }
 }
 .members{
@@ -69,9 +68,52 @@ footer{
     font-size: 14px; 
     color: #A9A9A9;
     text-align:center;
-    
     a{
         color:#A9A9A9;
         font-weight: 700;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 950px;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+    .text {
+        display: flex; 
+        .title {
+            flex-basis: 50%;
+            padding-top: 2.8rem;
+        }
+        .description {
+            flex-basis: 46%;
+            padding-top: 2.8rem;
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+    .members {
+        padding-top: 2rem;
+        padding-bottom: 7rem;
+        .member {
+            min-height: 500px;
+            img{
+                width:238px; 
+             }
+            .name {
+                font-size: 18px;
+            }
+            .job-title{
+                font-size: 12px;
+            }
+        }
+        .member.up {
+            justify-content: flex-start;
+        } 
+        .member.down {
+            justify-content: flex-end;
+        } 
     }
 }
