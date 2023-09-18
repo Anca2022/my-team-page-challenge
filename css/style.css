@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif:wght@400;700&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 70px 15px 30px 15px;
+  min-height: 1200px;
+  position: relative;
+}
+
+.title {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -0.1rem;
+}
+
+.description {
+  font-family: Poppins, sans-serif;
+  padding-top: 2.9rem;
+  padding-bottom: 3.5rem;
+}
+.description h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+.description p {
+  font-size: 14px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.members .member {
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+}
+.members .member:nth-child(even) {
+  justify-content: flex-end;
+}
+.members .member img {
+  width: 140px;
+}
+.members .member .job-title {
+  writing-mode: vertical-rl;
+  float: right;
+  text-transform: uppercase;
+  font-family: "PT Serif", serif;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.members .member .name {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+footer {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #A9A9A9;
+  text-align: center;
+}
+footer a {
+  color: #A9A9A9;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
